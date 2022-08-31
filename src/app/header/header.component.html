@@ -1,0 +1,16 @@
+<aotw-button ghost (click)="toggleMenu('main')">
+  <aotw-icon name="shine"></aotw-icon>
+</aotw-button>
+
+<div class="title">
+  <aotw-dynamic-text alignment="right">{{ title }}</aotw-dynamic-text>
+  <aotw-icon name="logo" size="large"></aotw-icon>
+  <span>of the World</span>
+  <aotw-button ghost (click)="toggleMenu('archive')">
+    <aotw-icon *ngIf="!isArchiveMenuOpen; else arrowUp" name="arrow-down"></aotw-icon>
+  </aotw-button>
+</div>
+
+<ng-template #arrowUp>
+  <aotw-icon name="arrow-up"></aotw-icon>
+</ng-template>
