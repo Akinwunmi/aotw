@@ -6,8 +6,9 @@ import { AotwIconRegistry } from '@aotw/components';
 import { icons } from '../assets/icons';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header';
-import { SubheaderComponent } from './subheader';
+import { HeaderComponent } from './components/header';
+import { MainTopicsComponent } from './components/main-topics';
+import { SubheaderComponent } from './components/subheader';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SubheaderComponent } from './subheader';
     BrowserModule,
     HeaderComponent,
     SubheaderComponent,
+    MainTopicsComponent,
     AppRoutingModule
   ],
   providers: [],

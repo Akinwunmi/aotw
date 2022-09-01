@@ -1,5 +1,6 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, ViewChildren } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AotwTab } from '@aotw/components';
 
 @Component({
   selector: 'app-subheader',
@@ -10,8 +11,11 @@ import { CommonModule } from '@angular/common';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class SubheaderComponent {
+  @ViewChildren('aotw-tab')
+  public aotwTabs!: AotwTab[];
+
   public tabs = [
     { id: 1, title: 'Search' },
-    { id: 1, title: 'Discover' }
+    { id: 2, title: 'Discover' }
   ]
 }

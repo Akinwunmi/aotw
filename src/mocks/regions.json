@@ -1,0 +1,31 @@
+{
+  "main": {
+    "name": "Continents",
+    "topics": [
+      {
+        "name": "Africa",
+        "topics": {}
+      },
+      {
+        "name": "Asia",
+        "topics": {}
+      },
+      {
+        "name": "Australia/Oceania",
+        "topics": {}
+      },
+      {
+        "name": "Europe",
+        "topics": {}
+      },
+      {
+        "name": "North America",
+        "topics": {}
+      },
+      {
+        "name": "South America",
+        "topics": {}
+      }
+    ]
+  }
+}

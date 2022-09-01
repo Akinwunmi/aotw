@@ -2,13 +2,12 @@
   align-items: center;
   display: grid;
   grid-template-columns: auto 1fr;
-  height: 60px;
+  height: 50px;
   padding-inline: var(--aotw-space-xs);
 }
 
 .title {
   align-items: center;
-  color: var(--aotw-color-primary-500);
   display: grid;
   gap: var(--aotw-space-xs);
   grid-template-columns: 1fr repeat(3, auto);

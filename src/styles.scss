@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 html,
 body {
   margin: 0;
@@ -5,6 +7,16 @@ body {
 }
 
 body {
-  background-color: var(--aotw-color-secondary-50);
+  background-color: var(--aotw-color-secondary-100);
+  color: var(--aotw-color-primary-500);
   font-family: var(--aotw-font-family-primary);
+  font-weight: var(--aotw-font-weight-regular);
+}
+
+h2 {
+  font-size: var(--aotw-font-size-s);
+  font-weight: var(--aotw-font-weight-medium);
+  line-height: var(--aotw-font-line-height-s);
+  margin: 0;
+  text-transform: uppercase;
 }

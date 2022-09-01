@@ -1,0 +1,34 @@
+:host {
+  border-bottom: 2px solid var(--aotw-color-white);
+  color: var(--aotw-color-white);
+  display: grid;
+  gap: var(--aotw-space-s);
+  margin-top: var(--aotw-space-l);
+  padding: var(--aotw-space-l) var(--aotw-space-s);
+}
+
+.main-topics {
+  display: grid;
+  font-size: var(--aotw-font-size-m);
+  gap: var(--aotw-space-xs);
+  justify-items: flex-start;
+  line-height: var(--aotw-font-line-height-m);
+  grid-template-columns: repeat(2, 50%);
+
+  .aotw-hyperlink {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    // ! Remove once class is inherited from @aotw/core
+    cursor: pointer;
+
+    &:hover {
+      color: var(--aotw-color-primary-400);
+    }
+
+    &:active {
+      color: var(--aotw-color-primary-700);
+    }
+  }
+}
