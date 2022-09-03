@@ -60,6 +60,44 @@ export const icons: Icon[] = [
   },
   {
     data: `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <line x1="9" y1="19" x2="22" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        <line x1="2" y1="19" x2="5" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        <circle cx="7" cy="19" r="2" stroke="currentColor" stroke-width="2"/>
+        <circle cx="17" cy="12" r="2" stroke="currentColor" stroke-width="2"/>
+        <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        <line x1="2" y1="12" x2="15" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        <circle cx="7" cy="5" r="2" stroke="currentColor" stroke-width="2"/>
+        <line x1="9" y1="5" x2="22" y2="5" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        <line x1="2" y1="5" x2="5" y2="5" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+      </svg>  
+    `,
+    name: 'filter'
+  },
+  {
+    data: `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <title>Grid Icon</title>
+        <rect x="3" y="3" width="7" height="7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="14" y="3" width="7" height="7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="3" y="14" width="7" height="7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="14" y="14" width="7" height="7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      </svg>  
+    `,
+    name: 'grid'
+  },
+  {
+    data: `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+        <title>List Icon</title>
+        <rect x="3" y="3" width="18" height="7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="3" y="14" width="18" height="7" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+    `,
+    name: 'list'
+  },
+  {
+    data: `
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill="none">
         <title>Archive of the World Logo</title>
         <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="2"/>

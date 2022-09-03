@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.0",
+    "@angular/cdk": "^14.2.0",
     "@angular/cli": "~14.2.0",
     "@angular/compiler-cli": "^14.0.0-next.0",
     "@aotw/components": "file:../aotw-lib/components",

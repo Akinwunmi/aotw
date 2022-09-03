@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+}
+
+app-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}

@@ -1,5 +1,8 @@
 :host {
   align-items: center;
+  background-color: var(--aotw-color-secondary-100);
+  box-shadow: 0 3px 3px var(--aotw-color-secondary-100);
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: auto 1fr;
   height: 50px;
