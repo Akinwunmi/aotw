@@ -1,5 +1,5 @@
 <div class="header">
-  <app-main-topics></app-main-topics>
+  <app-main-topic [mainTopic]="mainTopic"></app-main-topic>
   <app-filters></app-filters>
 </div>
-<app-items></app-items>
+<app-topic [selectedTopic]="mainTopic.topics[0]"></app-topic>

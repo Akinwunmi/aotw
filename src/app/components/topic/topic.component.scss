@@ -1,0 +1,17 @@
+:host {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--aotw-space-s);
+  padding: var(--aotw-space-s);
+}
+
+.topic {
+  width: 100%;
+
+  img {
+    background-color: var(--aotw-color-secondary-50);
+    width: 100%;
+    aspect-ratio: 3 / 2;
+  }
+}

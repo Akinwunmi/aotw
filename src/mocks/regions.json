@@ -4,27 +4,88 @@
     "topics": [
       {
         "name": "Africa",
-        "topics": {}
+        "topics": [
+          {
+            "name": "Algeria",
+            "topics": []
+          },
+          {
+            "name": "Angola",
+            "topics": []
+          },
+          {
+            "name": "Benin",
+            "topics": []
+          },
+          {
+            "name": "Botswana",
+            "topics": []
+          },
+          {
+            "name": "Burkina Faso",
+            "topics": []
+          },
+          {
+            "name": "Cameroon",
+            "topics": []
+          },
+          {
+            "name": "Central African Republic",
+            "topics": []
+          },
+          {
+            "name": "Chad",
+            "topics": []
+          },
+          {
+            "name": "Comoros",
+            "topics": []
+          },
+          {
+            "name": "Djibouti",
+            "topics": []
+          },
+          {
+            "name": "Equatorial Guinea",
+            "topics": []
+          },
+          {
+            "name": "Gambia",
+            "topics": []
+          },
+          {
+            "name": "Ghana",
+            "topics": []
+          },
+          {
+            "name": "Guinea",
+            "topics": []
+          },
+          {
+            "name": "Guinea-Bissau",
+            "topics": []
+          }
+        ]
       },
       {
         "name": "Asia",
-        "topics": {}
+        "topics": []
       },
       {
         "name": "Australia/Oceania",
-        "topics": {}
+        "topics": []
       },
       {
         "name": "Europe",
-        "topics": {}
+        "topics": []
       },
       {
         "name": "North America",
-        "topics": {}
+        "topics": []
       },
       {
         "name": "South America",
-        "topics": {}
+        "topics": []
       }
     ]
   }

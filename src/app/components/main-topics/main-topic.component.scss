@@ -24,6 +24,10 @@
     // ! Remove once class is inherited from @aotw/core
     cursor: pointer;
 
+    &:first-of-type {
+      color: var(--aotw-color-primary-500);
+    }
+
     &:hover {
       color: var(--aotw-color-primary-400);
     }

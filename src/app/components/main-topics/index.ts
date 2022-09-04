@@ -1,1 +1,1 @@
-export * from './main-topics.component';
+export * from './main-topic.component';
