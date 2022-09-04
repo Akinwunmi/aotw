@@ -2,10 +2,10 @@
   <aotw-icon name="filter" size="extra-large"></aotw-icon>
 </aotw-chip>
 <aotw-chip-group>
-  <aotw-chip size="medium">
+  <aotw-chip size="medium" (click)="setView('list')">
     <aotw-icon name="list" size="extra-large"></aotw-icon>
   </aotw-chip>
-  <aotw-chip size="medium" active>
+  <aotw-chip size="medium" active (click)="setView('grid')">
     <aotw-icon name="grid" size="extra-large"></aotw-icon>
   </aotw-chip>
 </aotw-chip-group>

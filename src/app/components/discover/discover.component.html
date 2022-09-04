@@ -1,5 +1,5 @@
 <div class="header">
-  <app-main-topic [mainTopic]="mainTopic"></app-main-topic>
-  <app-filters></app-filters>
+  <app-main-topic [mainTopic]="mainTopic" (selectedTopic)="setTopic($event)"></app-main-topic>
+  <app-filters (selectedView)="setView($event)"></app-filters>
 </div>
-<app-topic [selectedTopic]="mainTopic.topics[0]"></app-topic>
+<app-topic [class]="selectedView" [topic]="selectedTopic"></app-topic>

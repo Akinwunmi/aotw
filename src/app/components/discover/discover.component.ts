@@ -20,7 +20,14 @@ import { MainTopicComponent } from '../main-topics';
   styleUrls: ['./discover.component.scss']
 })
 export class DiscoverComponent {
-  public mainTopic!: Topic;
+  public mainTopic: Topic = {
+    name: '',
+    topics: []
+  };
+
+  public selectedTopic!: Topic;
+
+  public selectedView = 'grid';
 
   constructor(private archiveService: ArchiveService) { }
 
@@ -28,5 +35,13 @@ export class DiscoverComponent {
     this.archiveService.getArchive('regions').subscribe(archive => {
       this.mainTopic = archive.main;
     });
+  }
+
+  public setTopic(topic: Topic): void {
+    this.selectedTopic = topic;
+  }
+
+  public setView(view: string): void {
+    this.selectedView = view;
   }
 }

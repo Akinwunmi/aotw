@@ -4,14 +4,25 @@
   grid-template-columns: repeat(2, 1fr);
   gap: var(--aotw-space-s);
   padding: var(--aotw-space-s);
+
+  &.list {
+    grid-template-columns: auto;
+    
+    .topic {
+      align-items: center;
+      display: grid;
+      gap: var(--aotw-space-s);
+      grid-template-columns: 60px 1fr;
+    }
+  }  
 }
 
 .topic {
   width: 100%;
 
   img {
+    aspect-ratio: 3 / 2;
     background-color: var(--aotw-color-secondary-50);
     width: 100%;
-    aspect-ratio: 3 / 2;
   }
 }

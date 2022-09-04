@@ -12,5 +12,8 @@ import { Topic } from 'src/app/services/archive.model';
 })
 export class TopicComponent {
   @Input()
-  public selectedTopic!: Topic;
+  public topic?: Topic;
+
+  @Input()
+  public view!: string;
 }

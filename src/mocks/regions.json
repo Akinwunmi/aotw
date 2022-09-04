@@ -26,7 +26,19 @@
             "topics": []
           },
           {
+            "name": "Burundi",
+            "topics": []
+          },
+          {
             "name": "Cameroon",
+            "topics": []
+          },
+          {
+            "name": "Canary Islands",
+            "topics": []
+          },
+          {
+            "name": "Cape Verde",
             "topics": []
           },
           {
@@ -34,11 +46,23 @@
             "topics": []
           },
           {
+            "name": "Ceuta",
+            "topics": []
+          },
+          {
             "name": "Chad",
             "topics": []
           },
           {
-            "name": "Comoros",
+            "name": "Comoros, the",
+            "topics": []
+          },
+          {
+            "name": "Congo, Democratic Republic of the",
+            "topics": []
+          },
+          {
+            "name": "Congo, Republic of the",
             "topics": []
           },
           {
@@ -46,11 +70,35 @@
             "topics": []
           },
           {
+            "name": "Egypt",
+            "topics": []
+          },
+          {
             "name": "Equatorial Guinea",
             "topics": []
           },
           {
-            "name": "Gambia",
+            "name": "Eritrea",
+            "topics": []
+          },
+          {
+            "name": "Eswatini",
+            "topics": []
+          },
+          {
+            "name": "Ethiopia",
+            "topics": []
+          },
+          {
+            "name": "French Southern and Antarctic Islands",
+            "topics": []
+          },
+          {
+            "name": "Gabon",
+            "topics": []
+          },
+          {
+            "name": "Gambia, the",
             "topics": []
           },
           {
@@ -64,28 +112,665 @@
           {
             "name": "Guinea-Bissau",
             "topics": []
+          },
+          {
+            "name": "Ivory Coast",
+            "topics": []
+          },
+          {
+            "name": "Kenya",
+            "topics": []
+          },
+          {
+            "name": "Lesotho",
+            "topics": []
+          },
+          {
+            "name": "Liberia",
+            "topics": []
+          },
+          {
+            "name": "Libya",
+            "topics": []
+          },
+          {
+            "name": "Madagascar",
+            "topics": []
+          },
+          {
+            "name": "Madeira",
+            "topics": []
+          },
+          {
+            "name": "Malawi",
+            "topics": []
+          },
+          {
+            "name": "Mali",
+            "topics": []
+          },
+          {
+            "name": "Mauritania",
+            "topics": []
+          },
+          {
+            "name": "Mauritius",
+            "topics": []
+          },
+          {
+            "name": "Mayotte",
+            "topics": []
+          },
+          {
+            "name": "Melilla",
+            "topics": []
+          },
+          {
+            "name": "Morocco",
+            "topics": []
+          },
+          {
+            "name": "Mozambique",
+            "topics": []
+          },
+          {
+            "name": "Namibia",
+            "topics": []
+          },
+          {
+            "name": "Niger",
+            "topics": []
+          },
+          {
+            "name": "Nigeria",
+            "topics": []
+          },
+          {
+            "name": "Réunion",
+            "topics": []
+          },
+          {
+            "name": "Rwanda",
+            "topics": []
+          },
+          {
+            "name": "Sahrawi Arab Democratic Republic",
+            "topics": []
+          },
+          {
+            "name": "Saint Helena, Ascension and Tristan da Cunha",
+            "topics": []
+          },
+          {
+            "name": "São Tomé and Príncipe",
+            "topics": []
+          },
+          {
+            "name": "Senegal",
+            "topics": []
+          },
+          {
+            "name": "Seychelles",
+            "topics": []
+          },
+          {
+            "name": "Sierra Leone",
+            "topics": []
+          },
+          {
+            "name": "Somalia",
+            "topics": []
+          },
+          {
+            "name": "Somaliland",
+            "topics": []
+          },
+          {
+            "name": "South Africa",
+            "topics": []
+          },
+          {
+            "name": "South Sudan",
+            "topics": []
+          },
+          {
+            "name": "Sudan",
+            "topics": []
+          },
+          {
+            "name": "Tanzania",
+            "topics": []
+          },
+          {
+            "name": "Togo",
+            "topics": []
+          },
+          {
+            "name": "Tunisia",
+            "topics": []
+          },
+          {
+            "name": "Uganda",
+            "topics": []
+          },
+          {
+            "name": "Zambia",
+            "topics": []
+          },
+          {
+            "name": "Zimbabwe",
+            "topics": []
           }
         ]
       },
       {
         "name": "Asia",
-        "topics": []
+        "topics": [
+          {
+            "name": "Afghanistan",
+            "topics": []
+          },
+          {
+            "name": "Armenia",
+            "topics": []
+          },
+          {
+            "name": "Azerbaijan",
+            "topics": []
+          },
+          {
+            "name": "Bahrain",
+            "topics": []
+          },
+          {
+            "name": "Bangladesh",
+            "topics": []
+          },
+          {
+            "name": "Bhutan",
+            "topics": []
+          },
+          {
+            "name": "Brunei Darussalam",
+            "topics": []
+          },
+          {
+            "name": "Cambodia",
+            "topics": []
+          },
+          {
+            "name": "China",
+            "topics": []
+          },
+          {
+            "name": "Cyprus",
+            "topics": []
+          },
+          {
+            "name": "East Timor",
+            "topics": []
+          },
+          {
+            "name": "Georgia",
+            "topics": []
+          },
+          {
+            "name": "India",
+            "topics": []
+          },
+          {
+            "name": "Indonesia",
+            "topics": []
+          },
+          {
+            "name": "Iran",
+            "topics": []
+          },
+          {
+            "name": "Iraq",
+            "topics": []
+          },
+          {
+            "name": "Israel",
+            "topics": []
+          },
+          {
+            "name": "Japan",
+            "topics": []
+          },
+          {
+            "name": "Jordan",
+            "topics": []
+          },
+          {
+            "name": "Kazakhstan",
+            "topics": []
+          },
+          {
+            "name": "Kuwait",
+            "topics": []
+          },
+          {
+            "name": "Kyrgyzstan",
+            "topics": []
+          },
+          {
+            "name": "Laos",
+            "topics": []
+          },
+          {
+            "name": "Lebanon",
+            "topics": []
+          },
+          {
+            "name": "Malaysia",
+            "topics": []
+          },
+          {
+            "name": "Maldives",
+            "topics": []
+          },
+          {
+            "name": "Mongolia",
+            "topics": []
+          },
+          {
+            "name": "Myanmar",
+            "topics": []
+          },
+          {
+            "name": "Nepal",
+            "topics": []
+          },
+          {
+            "name": "North Korea",
+            "topics": []
+          },
+          {
+            "name": "Oman",
+            "topics": []
+          },
+          {
+            "name": "Pakistan",
+            "topics": []
+          },
+          {
+            "name": "Palestine, State of",
+            "topics": []
+          },
+          {
+            "name": "Philippines, the",
+            "topics": []
+          },
+          {
+            "name": "Qatar",
+            "topics": []
+          },
+          {
+            "name": "Russia",
+            "topics": []
+          },
+          {
+            "name": "Saudi Arabia",
+            "topics": []
+          },
+          {
+            "name": "Singapore",
+            "topics": []
+          },
+          {
+            "name": "South Korea",
+            "topics": []
+          },
+          {
+            "name": "Sri Lanka",
+            "topics": []
+          },
+          {
+            "name": "Syria",
+            "topics": []
+          },
+          {
+            "name": "Taiwan",
+            "topics": []
+          },
+          {
+            "name": "Tajikistan",
+            "topics": []
+          },
+          {
+            "name": "Thailand",
+            "topics": []
+          },
+          {
+            "name": "Turkey",
+            "topics": []
+          },
+          {
+            "name": "Turkmenistan",
+            "topics": []
+          },
+          {
+            "name": "United Arab Emirates, the",
+            "topics": []
+          },
+          {
+            "name": "Uzbekistan",
+            "topics": []
+          },
+          {
+            "name": "Vietnam",
+            "topics": []
+          },
+          {
+            "name": "Yemen",
+            "topics": []
+          }
+        ]
       },
       {
         "name": "Australia/Oceania",
-        "topics": []
+        "topics": [
+          {
+            "name": "American Samoa",
+            "topics": []
+          },
+          {
+            "name": "Australia",
+            "topics": []
+          },
+          {
+            "name": "Cook Islands",
+            "topics": []
+          },
+          {
+            "name": "Easter Island",
+            "topics": []
+          },
+          {
+            "name": "Federated States of Micronesia",
+            "topics": []
+          },
+          {
+            "name": "Fiji",
+            "topics": []
+          },
+          {
+            "name": "French Polynesia",
+            "topics": []
+          },
+          {
+            "name": "Galápagos Islands",
+            "topics": []
+          },
+          {
+            "name": "Guam",
+            "topics": []
+          },
+          {
+            "name": "Hawaii",
+            "topics": []
+          },
+          {
+            "name": "Kiribati",
+            "topics": []
+          },
+          {
+            "name": "Marshall Islands",
+            "topics": []
+          },
+          {
+            "name": "Nauru",
+            "topics": []
+          },
+          {
+            "name": "New Caledonia",
+            "topics": []
+          },
+          {
+            "name": "New Zealand",
+            "topics": []
+          },
+          {
+            "name": "Niue",
+            "topics": []
+          },
+          {
+            "name": "Northern Mariana Islands",
+            "topics": []
+          },
+          {
+            "name": "Palau",
+            "topics": []
+          },
+          {
+            "name": "Papua New Guinea",
+            "topics": []
+          },
+          {
+            "name": "Pitcairn Islands",
+            "topics": []
+          },
+          {
+            "name": "Samoa",
+            "topics": []
+          },
+          {
+            "name": "Solomon Islands",
+            "topics": []
+          },
+          {
+            "name": "Tokelau",
+            "topics": []
+          },
+          {
+            "name": "Tonga",
+            "topics": []
+          },
+          {
+            "name": "Tuvalu",
+            "topics": []
+          },
+          {
+            "name": "Vanuatu",
+            "topics": []
+          },
+          {
+            "name": "Wallis and Futuna",
+            "topics": []
+          }
+        ]
       },
       {
         "name": "Europe",
-        "topics": []
+        "topics": [
+          {
+            "name": "Albania",
+            "topics": []
+          },
+          {
+            "name": "Andorra",
+            "topics": []
+          },
+          {
+            "name": "Belarus",
+            "topics": []
+          },
+          {
+            "name": "Belgium",
+            "topics": []
+          },
+          {
+            "name": "Bosnia-Herzegovina",
+            "topics": []
+          },
+          {
+            "name": "Czechia",
+            "topics": []
+          },
+          {
+            "name": "Denmark",
+            "topics": []
+          },
+          {
+            "name": "France",
+            "topics": []
+          },
+          {
+            "name": "Georgia",
+            "topics": []
+          },
+          {
+            "name": "Germany",
+            "topics": []
+          },
+          {
+            "name": "Hungary",
+            "topics": []
+          },
+          {
+            "name": "Italy",
+            "topics": []
+          },
+          {
+            "name": "Russia",
+            "topics": []
+          },
+          {
+            "name": "Sweden",
+            "topics": []
+          },
+          {
+            "name": "Switzerland",
+            "topics": []
+          },
+          {
+            "name": "Ukraine",
+            "topics": []
+          },
+          {
+            "name": "United Kingdom",
+            "topics": []
+          }
+        ]
       },
       {
         "name": "North America",
-        "topics": []
+        "topics": [
+          {
+            "name": "Bahamas",
+            "topics": []
+          },
+          {
+            "name": "Canada",
+            "topics": []
+          },
+          {
+            "name": "Cuba",
+            "topics": []
+          },
+          {
+            "name": "El Salvador",
+            "topics": []
+          },
+          {
+            "name": "Guatemala",
+            "topics": []
+          },
+          {
+            "name": "Honduras",
+            "topics": []
+          },
+          {
+            "name": "Mexico",
+            "topics": []
+          },
+          {
+            "name": "Nicaragua",
+            "topics": []
+          },
+          {
+            "name": "Saint Kitts and Nevis",
+            "topics": []
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "topics": []
+          },
+          {
+            "name": "United States of America",
+            "topics": []
+          }
+        ]
       },
       {
         "name": "South America",
-        "topics": []
+        "topics": [
+          {
+            "name": "Argentina",
+            "topics": []
+          },
+          {
+            "name": "Bolivia",
+            "topics": []
+          },
+          {
+            "name": "Bouvet Island",
+            "topics": []
+          },
+          {
+            "name": "Brazil",
+            "topics": []
+          },
+          {
+            "name": "Chile",
+            "topics": []
+          },
+          {
+            "name": "Colombia",
+            "topics": []
+          },
+          {
+            "name": "Ecuador",
+            "topics": []
+          },
+          {
+            "name": "Falkland Islands",
+            "topics": []
+          },
+          {
+            "name": "French Guiana",
+            "topics": []
+          },
+          {
+            "name": "Guyana",
+            "topics": []
+          },
+          {
+            "name": "Paraguay",
+            "topics": []
+          },
+          {
+            "name": "Peru",
+            "topics": []
+          },
+          {
+            "name": "South Georgia and the South Sandwich Islands",
+            "topics": []
+          },
+          {
+            "name": "Suriname",
+            "topics": []
+          },
+          {
+            "name": "Uruguay",
+            "topics": []
+          },
+          {
+            "name": "Venezuela",
+            "topics": []
+          }
+        ]
       }
     ]
   }
