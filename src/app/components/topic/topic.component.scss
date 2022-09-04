@@ -20,9 +20,15 @@
 .topic {
   width: 100%;
 
-  img {
+  &_visual {
     aspect-ratio: 3 / 2;
-    background-color: var(--aotw-color-secondary-50);
-    width: 100%;
+    display: flex;
+
+    img {
+      background-color: var(--aotw-color-secondary-50);
+      margin: auto 0;
+      max-height:100%;
+      max-width:100%;
+    }
   }
 }

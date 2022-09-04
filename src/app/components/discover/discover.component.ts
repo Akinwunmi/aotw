@@ -5,7 +5,7 @@ import { Topic } from '../../services/archive.model';
 import { ArchiveService } from '../../services/archive.service';
 import { FiltersComponent } from '../filters';
 import { TopicComponent } from '../topic';
-import { MainTopicComponent } from '../main-topics';
+import { MainTopicComponent } from '../main-topic';
 
 @Component({
   selector: 'app-discover',

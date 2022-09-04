@@ -16,4 +16,10 @@ export class TopicComponent {
 
   @Input()
   public view!: string;
+
+  // ! TEMP to test image ratio
+  public dimensionsMock = {
+    width: Math.ceil(Math.random() * (1000 - 400) + 400),
+    height: Math.ceil(Math.random() * (500 - 300) + 300)
+  }
 }
