@@ -3,7 +3,7 @@
   <a
     *ngFor="let topic of mainTopic.topics"
     class="aotw-hyperlink"
-    [ngClass]="{'active': topic === activeTopic}"
+    [ngClass]="{ active: topic === activeTopic }"
     (click)="setActiveTopic(topic)"
   >
     {{ topic.name }}

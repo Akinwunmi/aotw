@@ -1,7 +1,10 @@
 <div class="topic" *ngFor="let topic of topic?.topics">
   <div class="topic_visual">
     <!-- ! TEMP to test image ratio -->
-    <img [src]="'https://unsplash.it/' + dimensionsMock.width + '/' + dimensionsMock.height" alt="">
+    <img
+      [src]="'https://unsplash.it/' + dimensionsMock.width + '/' + dimensionsMock.height"
+      alt=""
+    />
   </div>
   {{ topic.name }}
 </div>
