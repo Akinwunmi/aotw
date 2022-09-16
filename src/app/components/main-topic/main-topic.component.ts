@@ -7,7 +7,7 @@ import { Topic } from '../../services/archive.model';
 @Component({
   selector: 'app-main-topic',
   standalone: true,
-  imports: [ CommonModule, HttpClientModule ],
+  imports: [CommonModule, HttpClientModule],
   templateUrl: './main-topic.component.html',
   styleUrls: ['./main-topic.component.scss']
 })

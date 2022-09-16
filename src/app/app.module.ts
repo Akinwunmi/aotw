@@ -11,9 +11,7 @@ import { HeaderComponent } from './components/header';
 import { SubheaderComponent } from './components/subheader';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     DiscoverComponent,
@@ -26,7 +24,7 @@ import { SubheaderComponent } from './components/subheader';
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor() {
+  public constructor() {
     AotwIconRegistry.register(icons);
   }
 }
