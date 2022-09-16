@@ -15,6 +15,7 @@
   gap: var(--aotw-space-xs);
   grid-template-columns: 1fr repeat(3, auto);
   height: var(--aotw-height-m);
+  position: relative;
 
   aotw-dynamic-text,
   span {
@@ -23,5 +24,32 @@
 
   span {
     text-transform: uppercase;
+  }
+
+  [name='arrow-down'] {
+    transition: all 150ms ease-in-out;
+
+    &.up {
+      transform: rotate(180deg);
+    }
+  }
+  
+  &_archive-menu {
+    background-color: var(--aotw-color-primary-500);
+    border-radius: var(--aotw-radius-s);
+    box-shadow: 0 0 6px var(--aotw-color-secondary-100);
+    color: var(--aotw-color-white);
+    display: grid;
+    padding: var(--aotw-space-m);
+    padding-right: var(--aotw-space-3xl);
+    position: absolute;
+    right: var(--aotw-space-m);
+    top: 36px;
+
+    a {
+      &.active {
+        font-weight: var(--aotw-font-weight-bold);
+      }
+    }
   }
 }

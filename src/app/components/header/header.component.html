@@ -3,14 +3,21 @@
 </aotw-button>
 
 <div class="title">
-  <aotw-dynamic-text alignment="right">{{ title }}</aotw-dynamic-text>
+  <aotw-dynamic-text alignment="right">{{ activeArchive }}</aotw-dynamic-text>
   <aotw-icon name="logo" size="medium"></aotw-icon>
   <span>of the World</span>
   <aotw-button ghost (click)="toggleMenu('archive')">
-    <aotw-icon *ngIf="!isArchiveMenuOpen; else arrowUp" name="arrow-down"></aotw-icon>
+    <aotw-icon name="arrow-down" [ngClass]="{ up: isArchiveMenuOpen }"></aotw-icon>
   </aotw-button>
-</div>
 
-<ng-template #arrowUp>
-  <aotw-icon name="arrow-up"></aotw-icon>
-</ng-template>
+  <!-- TODO: Attach to Overlay Manager -->
+  <div class="title_archive-menu" *ngIf="isArchiveMenuOpen">
+    <a
+      *ngFor="let archive of archives"
+      [ngClass]="{ active: archive.name === activeArchive }"
+      (click)="setActiveArchive(archive)"
+    >
+      {{ archive.name }}
+    </a>
+  </div>
+</div>
