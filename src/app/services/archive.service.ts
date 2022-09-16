@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 
-import { Archive } from './archive.model';
+import { environment } from '../../environments/environment';
+
+import { Archive, ArchivesResponse, AvailableArchive } from './archive.model';
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +14,12 @@ export class ArchiveService {
   private _url = 'assets/mocks/';
 
   public constructor(private _http: HttpClient) {}
+
+  public getArchives(): Observable<AvailableArchive[]> {
+    return this._http
+      .get<ArchivesResponse>(environment.api.url + 'archives')
+      .pipe(map(response => response.archives));
+  }
 
   public getArchive(name: string): Observable<Archive> {
     this._name = name;
