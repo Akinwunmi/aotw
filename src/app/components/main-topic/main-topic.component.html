@@ -1,8 +1,8 @@
 <h2>{{ mainTopic.name }}</h2>
 <div class="main-topics">
   <a
-    *ngFor="let topic of mainTopic.topics"
     class="aotw-hyperlink"
+    *ngFor="let topic of mainTopic.topics"
     [ngClass]="{ active: topic === activeTopic }"
     (click)="setActiveTopic(topic)"
   >
