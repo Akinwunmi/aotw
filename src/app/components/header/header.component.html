@@ -1,4 +1,4 @@
-<aotw-button ghost (click)="toggleMenu('main')">
+<aotw-button (click)="toggleMenu('main')" ghost>
   <aotw-icon name="shine"></aotw-icon>
 </aotw-button>
 
@@ -6,8 +6,8 @@
   <aotw-dynamic-text alignment="right">{{ activeArchive }}</aotw-dynamic-text>
   <aotw-icon name="logo" size="medium"></aotw-icon>
   <span>of the World</span>
-  <aotw-button ghost (click)="toggleMenu('archive')">
-    <aotw-icon name="arrow-down" [ngClass]="{ up: isArchiveMenuOpen }"></aotw-icon>
+  <aotw-button (click)="toggleMenu('archive')" ghost>
+    <aotw-icon [ngClass]="{ up: isArchiveMenuOpen }" name="arrow-down"></aotw-icon>
   </aotw-button>
 
   <!-- TODO: Attach to Overlay Manager -->
