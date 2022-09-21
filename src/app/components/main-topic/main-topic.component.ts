@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { Topic } from '../../services/archive.model';
+import { Topic, TopicWithChildren } from '../../services/topic.model';
 
 @Component({
   selector: 'app-main-topic',
@@ -12,22 +12,22 @@ import { Topic } from '../../services/archive.model';
   styleUrls: ['./main-topic.component.scss']
 })
 export class MainTopicComponent {
-  private _mainTopic!: Topic;
+  private _mainTopic!: TopicWithChildren;
 
   @Input()
-  public set mainTopic(mainTopic: Topic) {
+  public set mainTopic(mainTopic: TopicWithChildren) {
     this._mainTopic = mainTopic;
     const activeTopic = mainTopic.topics[0];
     this.setActiveTopic(activeTopic);
     this.selectedTopic.emit(activeTopic);
   }
 
-  @Output()
-  public selectedTopic = new EventEmitter<Topic>();
-
-  public get mainTopic(): Topic {
+  public get mainTopic(): TopicWithChildren {
     return this._mainTopic;
   }
+
+  @Output()
+  public selectedTopic = new EventEmitter<Topic>();
 
   public activeTopic!: Topic;
 

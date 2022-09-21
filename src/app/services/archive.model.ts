@@ -1,14 +1,15 @@
 export interface ArchivesResponse {
-  archives: AvailableArchive[];
+  archives: Archive[];
 }
 
-export interface AvailableArchive {
-  id: number;
-  name: string;
+export interface ArchiveResponse {
+  archive: [Archive];
 }
 
 export interface Archive {
-  main: Topic;
+  id: number;
+  mainTopicsType: string;
+  name: string;
 }
 
 export interface Topic {
