@@ -1,12 +1,13 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Subject, takeUntil } from 'rxjs';
+import { forkJoin, map, Subject, takeUntil } from 'rxjs';
 
-import { Topic } from '../../services/archive.model';
 import { ArchiveService } from '../../services/archive.service';
+import { Topic, TopicWithChildren } from '../../services/topic.model';
+import { TopicService } from '../../services/topic.service';
 import { FiltersComponent } from '../filters';
-import { TopicComponent } from '../topic';
 import { MainTopicComponent } from '../main-topic';
+import { TopicComponent } from '../topic';
 
 @Component({
   selector: 'app-discover',
@@ -18,7 +19,7 @@ import { MainTopicComponent } from '../main-topic';
 export class DiscoverComponent implements OnDestroy, OnInit {
   private _destroy$ = new Subject<void>();
 
-  public mainTopic: Topic = {
+  public mainTopic: TopicWithChildren = {
     name: '',
     topics: []
   };
@@ -27,14 +28,26 @@ export class DiscoverComponent implements OnDestroy, OnInit {
 
   public selectedView = 'grid';
 
-  public constructor(private _archiveService: ArchiveService) {}
+  public constructor(
+    private _archiveService: ArchiveService,
+    private _topicService: TopicService
+  ) {}
 
   public ngOnInit(): void {
-    this._archiveService
-      .getArchive('regions')
-      .pipe(takeUntil(this._destroy$))
-      .subscribe(archive => {
-        this.mainTopic = archive.main;
+    const archive$ = this._archiveService.getArchive(5);
+    const topics$ = this._topicService.getTopics();
+    forkJoin([archive$, topics$])
+      .pipe(
+        map(([archive, topics]) => {
+          const topicsInArchive = topics.filter(
+            topic => topic.archiveId === archive.id && !topic.topicId
+          );
+          return { name: archive.mainTopicsType, topics: topicsInArchive } as TopicWithChildren;
+        }),
+        takeUntil(this._destroy$)
+      )
+      .subscribe(mainTopic => {
+        this.mainTopic = mainTopic;
       });
   }
 

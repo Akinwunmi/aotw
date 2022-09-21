@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 
-import { AvailableArchive } from '../../services/archive.model';
+import { Archive } from '../../services/archive.model';
 import { ArchiveService } from '../../services/archive.service';
 
 @Component({
@@ -15,11 +15,11 @@ import { ArchiveService } from '../../services/archive.service';
 })
 export class HeaderComponent implements OnDestroy, OnInit {
   @Input()
-  public activeArchive?: string;
+  public activeArchive?: Archive;
 
   private _destroy$ = new Subject<void>();
 
-  public archives!: AvailableArchive[];
+  public archives!: Archive[];
 
   public isArchiveMenuOpen = false;
   public isMainMenuOpen = false;
@@ -31,7 +31,7 @@ export class HeaderComponent implements OnDestroy, OnInit {
       .getArchives()
       .pipe(takeUntil(this._destroy$))
       .subscribe(archives => {
-        this.activeArchive = archives.find(archive => archive.name === 'Regions')?.name;
+        this.activeArchive = archives.find(archive => archive.id === 5);
         this.archives = archives;
       });
   }
@@ -47,8 +47,9 @@ export class HeaderComponent implements OnDestroy, OnInit {
     }
   }
 
-  public setActiveArchive(archive: AvailableArchive): void {
-    this.activeArchive = archive.name;
+  public setActiveArchive(archive: Archive): void {
+    this._archiveService.activeArchive.next(archive);
+    this.activeArchive = archive;
     this.isArchiveMenuOpen = false;
     this.isMainMenuOpen = false;
   }
